@@ -1,0 +1,169 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6ccdd39db5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h2 class="logo"><span>K</span>amal.</h2>
+                <ul id="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#work">Portfolio</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><button id="colorButton">Change Background</button></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()" id="icon"></i>
+            </nav>
+            <div class="content">
+                <h1>Hi, I'm <br> <span>Kamal Pandey </span></h1><br>
+                <a href="KamalResume-2ndSep2023.pdf" class="download-btn" download>Download Resume</a>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="IMG_20230305_110533.png">
+                </div>
+                <div class="col-2">
+                    <h1 class="title">About <span>Me</span></h1>
+                    <p>Aspiring Frontend Developer with 1+ years experience in building
+                        and maintaining responsive websites. Proficient in HTML, CSS,
+                        JavaScript, Python, C++. Passionate about usability and possess
+                        working knowledge of other tools used in web development
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                        <div class="tab-links" onclick="opentab('Certifications')">Certifications</div>
+                    </div>
+                    <div class="tab-contents active" id="skills">
+                        <ul>
+                            <li><span>HTML5</span></li>
+                            <li><span>CSS3</span></li>
+                            <li><span>javaScript</span></li>
+                            <li><span>C++</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>My SQL</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025 - BTech</span><br>Abes Engineering College</li>
+                            <li><span>2020 - 12th</span><br>Dayawati Modi Academy , Rampur</li>
+                            <li><span>2018 - 10th</span><br>Dayawati Modi Academy , Rampur</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>COURSERA 
+                            </span><br>INTRODUCTION TO WEB DEVLOPMENT</li>
+                            <li><span>PCAP: Programming Essentials in Python course 
+                                </span><br>Provided
+                                by Cisco Networking Academy in collaboration with
+                                OpenEDG Python Institute</li>
+                            <li><span>HACKERRANK 
+                            </span><br>PROBLEM SOLVING(INTERMEDIATE)</li>
+                            <li><span>INFOSYS SPRINGBOARD </span><br>INTRODUCTION TO ARTIFICIAL
+                                INTELLIGENCE</li>
+                            <li><span>HACKERRANK</span><br>INTRODUCTION TO SQL(BASIC)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- WORKS -->
+    <section id="work">
+        <div class="container">
+            <h1 class="title">My <span>Work</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h2>india E-mobile Store</h2>
+                        <p>India E - Mobile Store is a e-commerce website made by me for
+                            College mini project in 3rd semester.
+                        </p>
+                        <a href="https://github.com/kamalpandey19/e-mobile-store" target="_blank"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="irctc.jpg" alt="">
+                    <div class="layer">
+                        <h2>IRCTC Web Clone</h2>
+                        <p>It is a clone of Irctc website made by me for learning and practicing
+                            HTML5 and CSS
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Netflix-Symbol.png" alt="">
+                    <div class="layer">
+                        <h2>Neflix Website Clone</h2>
+                        <p>It is a clone of Netflix website made by me for learning and practicing
+                            HTML5 and CSS
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-l">
+                    <h1 class="title"><span>Contact</span> Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>kamal321pandey@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7351245653</p>
+                    <div class="social-media">
+                        <a href="https://wa.me/7351245653 " target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="linkedin.com/in/kamal-pandey19" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/kamalpandey19" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/kamalpandey.19/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/kamalpandey.19" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="KamalResume-2ndSep2023.pdf" class="download-btn" download>Download Resume</a>
+                </div>
+                <div class="contact-r">
+                    <form action="">
+                        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                        <input type="email" name="email" id="email" placeholder="Enter Your Email ID" required>
+                        <textarea name="msg" id="msg" placeholder="Enter Your Message" required></textarea>
+                        <button type="submit" value="submit" id="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    
+
+    <footer>
+        <p>Copyright &copy; 2023 Kamal Pandey</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
